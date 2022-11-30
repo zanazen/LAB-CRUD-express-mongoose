@@ -95,7 +95,7 @@ A rota deve:
 - Retornar um único documento pelo seu _id_, utilizando o model `Album`.
 - Deve retornar uma response em `JSON` incluindo o objeto do album.
 
-### 2.4 Crie a rota `PUT /albums/albumId`
+### 2.4 Crie a rota `PUT /albums/:albumId`
 
 A rota recebe o _id_ do album a ser atualizado como o parâmetro de rota `albumId`.
 O `req.body` irá conter as seguintes informações do album: `performer`, `title` e `cost`.
