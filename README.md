@@ -39,7 +39,7 @@ MONGODB_URI=mongodb://127.0.0.1:27017/LAB-CRUD-express-mongoose
 
   **Importante!**: Lembre-se de **exportar** cada `model` após criá-lo.
 
-## Iteração 1: Crie os modelos `Album` e `Purchase`
+## Iteração 1: Crie os models `Album` e `Purchase`
 
 O modelo do **`Album`** deve conter as seguintes propriedades:
 
