@@ -16,7 +16,7 @@ O arquivo `app.js` contém as configurações iniciais do servidor e da conexão
 
 ## Vamos começar!
 
-==**Importante!**==: Lembre-se de **exportar** cada `model` após criá-lo.
+**Importante!**: Lembre-se de **exportar** cada `model` após criá-lo.
 
 ## Iteração 1: Crie os modelos `Album` e `Purchase`
 
@@ -33,7 +33,7 @@ O modelo **`Purchase`** deve conter as seguintes propriedades:
 
 ## Iteração 2 Crie as rotas **`/albums`**
 
-==**Importante:**== Antes de começar, leia atentamente as instruções.
+**Importante:**Antes de começar, leia atentamente as instruções.
 
 **Requests**
 Você sempre pode adicionar um `console.log(req.body)` ou `console.log(req.params` para checar o conteúdo do corpo da requisição ou dos parâmetros de rota. Lembre-se de checar o terminal.
