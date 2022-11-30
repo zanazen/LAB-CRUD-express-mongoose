@@ -49,8 +49,8 @@ O modelo do **`Album`** deve conter as seguintes propriedades:
 
 O modelo **`Purchase`** deve conter as seguintes propriedades:
 
-- shippingAdress - String
-- album - _ObjectID_ referente ao modelo do Album
+- `shippingAdress` - String
+- `album` - _ObjectID_ referente ao modelo do Album
 
 ## Iteração 2 Crie as rotas **`/albums`**
 
