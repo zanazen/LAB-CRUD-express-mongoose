@@ -12,9 +12,26 @@ Você irá trabalhar nos seguintes arquivos:
 - `routes/albums.router.js`
 - `routes/purchase.router.js`
 
-O arquivo `app.js` contém as configurações iniciais do servidor e da conexão do banco de dados com `mongoose` , não é necessário alterá-lo.
-
 ## Vamos começar!
+
+O arquivo `app.js` contém as configurações iniciais do servidor e da conexão do banco de dados com `mongoose`.
+
+Para iniciar, siga as instruções:
+
+- Fork no repositório
+- Clone o repositório
+
+Em seguida:
+
+- Instale as dependências:
+  `npm install `
+
+- Crie um arquivo `.env` seguindo o exemplo do arquivo `.example.env`:
+
+```
+PORT=8080 <-- padrão
+MONGODB_URI=mongodb://127.0.0.1:27017/LAB-CRUD-express-mongoose
+```
 
 **Importante!**: Lembre-se de **exportar** cada `model` após criá-lo.
 
