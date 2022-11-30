@@ -35,7 +35,7 @@ MONGODB_URI=mongodb://127.0.0.1:27017/LAB-CRUD-express-mongoose
 
 - Para iniciar o servidor, utilize `npm start` para rodar com nodemon, ou tente a nova feature do node `node --watch index.js`
 
-- Caso queira testar suas rotas, utilize o [[Postman](https://www.postman.com/)] ou o [[Insomnia](https://insomnia.rest/)]
+- Caso queira testar suas rotas, utilize o [Postman](https://www.postman.com/) ou o [Insomnia](https://insomnia.rest/)
 
   **Importante!**: Lembre-se de **exportar** cada `model` após criá-lo.
 
