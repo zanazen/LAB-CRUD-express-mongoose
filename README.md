@@ -33,7 +33,8 @@ PORT=8080 <-- padrão
 MONGODB_URI=mongodb://127.0.0.1:27017/LAB-CRUD-express-mongoose
 ```
 
-**Importante!**: Lembre-se de **exportar** cada `model` após criá-lo.
+- Para iniciar o servidor, utilize `npm start` para rodar com nodemon, ou tente a nova feature do node `node --watch index.js`
+  **Importante!**: Lembre-se de **exportar** cada `model` após criá-lo.
 
 ## Iteração 1: Crie os modelos `Album` e `Purchase`
 
