@@ -33,7 +33,7 @@ PORT=8080 <-- padrão
 MONGODB_URI=mongodb://127.0.0.1:27017/LAB-CRUD-express-mongoose
 ```
 
-- Para iniciar o servidor, utilize `npm start` para rodar com nodemon, ou tente a nova feature do node `node --watch index.js`
+- Para iniciar o servidor, utilize `npm run dev` para rodar com nodemon, ou tente a nova feature do node `node --watch index.js`
 
 - Caso queira testar suas rotas, utilize o [Postman](https://www.postman.com/) ou o [Insomnia](https://insomnia.rest/)
 
@@ -54,7 +54,7 @@ O modelo **`Purchase`** deve conter as seguintes propriedades:
 
 ## Iteração 2 Crie as rotas **`/albums`**
 
-**Importante:**Antes de começar, leia atentamente as instruções.
+**Importante:** Antes de começar, leia atentamente as instruções.
 
 **Requests**
 Você sempre pode adicionar um `console.log(req.body)` ou `console.log(req.params` para checar o conteúdo do corpo da requisição ou dos parâmetros de rota. Lembre-se de checar o terminal.
