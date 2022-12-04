@@ -1,20 +1,6 @@
-import { model, Schema } from "mongoose"
+import { Router } from "express";
+import PurchaseModel from "../models/purchase.model.js";
+import AlbumModel from "../models/album.model.js";
 
-const purchaseSchema = new Schema(
-{
-    shippingAdress: {
-        type: String
-    },
-    album: [
-    {
-    type: Schema.Types.ObjectId,
-    ref: "Album"
-    }
-    ]
-},
-{
-    timestamps: true,
-}
-)
-const PurchaseModel = model("Purchase", purchaseSchema)
-export default PurchaseModel
+const router = Router();
+
