@@ -18,7 +18,7 @@ router.get("/purchase/:purchaseID", async (req, res) => {
     try {
         const { purchaseID } = req.params;
         const purchase = await PurchaseModel.findById(purchaseID).populate("album");
-        return res.status(200).json(allAlbums);
+        return res.status(200).json(purchase);
     } catch (error) {
         console.log(error);
         return res.status(500).json(error);

@@ -42,7 +42,7 @@ router.put("/albums/:albumId", async (req, res) => {
         const updateAlbum = await AlbumModel.findByIdAndUpdate(
             albumID,
             { ...req.body },
-            { new: true }
+            { new: true, runValidators: true }
             );
         return res.status(200).json(updateAlbum);
     } catch (error) {
